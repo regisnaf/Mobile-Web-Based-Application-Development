@@ -1,0 +1,61 @@
+
+	/* Galaxy S5 landscape */
+@media screen 
+and (device-width: 640px) 
+and (device-height: 360px) 
+and (-webkit-device-pixel-ratio: 3) 
+and (orientation: landscape) {
+	body {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+		grid-gap: 1rem;
+		font-size: 1em;
+		background: radial-gradient(#e7e0e1, #b8b6ae);
+		}
+		
+
+.gridArea {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-areas: 
+		"header header"
+		"side1 side2"
+	;
+	gap: 5px; 
+	place-items: center;
+}
+
+.bpage2 {
+	display: grid;
+	grid-template-columns: auto;
+	gap: 5px; 
+	place-items: center;
+	background: radial-gradient(#f77f10, #f78558);
+	;
+}
+
+.pngBorder{border: thick solid darkblue;}
+
+.side1 {background-color: gray; text-align: center;}
+.side2 {background-color: gray; text-align: center;}
+.page2 {text-align: center;}
+button {padding: 10px; border-radius: 10px;}
+
+footer {
+background-color: cornflowerblue;
+}
+
+#terminfo {font-family: Verdana, Geneva, Tahoma, sans-serif; color:brown;}
+
+img {height: 20px; width: 20px;}
+.photo {height: 100px; width: 100px;}
+
+p {margin-bottom: 0px; text-align: center; font-size: x-small;}
+h1, h2, h3, h4, h5 {margin-bottom: 0px; text-align: center; font-size: x-small; background-color: cornflowerblue;}
+.anchorCSS { border-radius: 50px; background-color: darkblue; 
+	font-size: 1em; text-decoration: none; color: white; padding: 2px;
+	text-align: center; margin-bottom: 5px;}
+
+}
+
+
