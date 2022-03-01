@@ -1,0 +1,39 @@
+	/* Galaxy S5 Portrait */
+  @media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+    body {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+      grid-gap: 1rem;
+      font-size: 1em;
+      background-image: url("/images/bg.png");
+      height: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      }
+
+.content .container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  text-align: center; 
+}
+
+.container img {
+  width: 30%;
+  border: 2px solid;
+  height: auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+h3 {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}}

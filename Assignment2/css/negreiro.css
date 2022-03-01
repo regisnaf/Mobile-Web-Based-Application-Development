@@ -1,0 +1,102 @@
+
+	/* Galaxy S5 Portrait */
+ @media screen 
+and (device-width: 360px) 
+and (device-height: 640px) 
+and (-webkit-device-pixel-ratio: 3) 
+and (orientation: portrait) {
+	body {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+	grid-gap: 1rem;
+	font-size: 1em;
+	background-image: url("/images/bg.png");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+	
+
+	.content .container {
+		position: relative;
+		width: 100%;
+		max-width: 400px;
+		text-align: center;
+	}
+	
+	.container img {
+		width: 37%;
+		border: 2px solid;
+		height: auto;
+		
+	}
+	
+	.container .btn {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		background-color: transparent;
+		color: rgb(218, 255, 226);
+		font-size: 25px;
+		padding: 12px 24px;
+		border: none;
+		cursor: pointer;
+		border-radius: 5px;
+		font-size:larger;
+		text-align: center;
+	}
+	
+
+
+	li {
+		list-style-type: none;
+	}} 
+	
+
+
+
+/* .content {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-areas: 
+		"header header"
+		"side1 side2"
+	;
+	gap: 5px; 
+	place-items: center;
+} 
+
+.bpage2 {
+	display: grid;
+	grid-template-columns: auto;
+	gap: 5px; 
+	place-items: center;
+	background: radial-gradient(#f77f10, #f78558);
+	;
+}
+
+.pngBorder{border: thick solid darkblue;}
+
+.side1 {background-color: gray; text-align: center;}
+.side2 {background-color: gray; text-align: center;}
+.page2 {text-align: center;}
+button {padding: 10px; border-radius: 10px;}
+
+footer {
+background-color: cornflowerblue;
+}
+
+#terminfo {font-family: Verdana, Geneva, Tahoma, sans-serif; color:brown;}
+
+img {height: 20px; width: 20px;}
+.photo {height: 100px; width: 100px;}
+
+p {margin-bottom: 0px; text-align: center; font-size: x-small;}
+h1, h2, h3, h4, h5 {margin-bottom: 0px; text-align: center; font-size: x-small; background-color: cornflowerblue;}
+.anchorCSS { border-radius: 50px; background-color: darkblue; 
+	font-size: 1em; text-decoration: none; color: white; padding: 2px;
+	text-align: center; margin-bottom: 5px;}
+ */
